@@ -1,0 +1,10 @@
+<mvc:View
+	controllerName="LogaliUI5.Customers.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Button text="{i18n>sayHello}" press=".onShowHello"/>
+	<Input	value="{/recipient/name}"
+			description="{i18n>descHello} {/recipient/name}"
+			valueLiveUpdate="true"
+			width="60%"/>
+</mvc:View>
